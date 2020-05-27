@@ -1,4 +1,5 @@
 import random
+#Alpha 1, 27.05.2020
 
 #######################
 #Variables            #
