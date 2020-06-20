@@ -10,6 +10,8 @@ class Level:
             self.UpdateLevel(player)
         self.isLevelUp = False
 
+    def BoostXP(self, player, gotXp):
+        player.xp += self.xpBoost * gotXp
 
     def UpdateLevel(self, player):
         player.xp = 0
